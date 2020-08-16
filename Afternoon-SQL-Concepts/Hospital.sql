@@ -78,13 +78,13 @@ INSERT INTO Record VALUES(6, 'lung infection', '2019-12-10', 6);
 INSERT INTO Record VALUES(7, 'Stomach infection', '2019-12-11', 7);
 INSERT INTO Record VALUES(8, 'Myopia ','2020-05-04', 1);
 
--- DROP TABLE department;
--- 
+
+-- QUERY 2 : Design a query to provide a list of doctors, which department they belong to and patients treated by them (if any).
+
 SELECT DOC_NAME,DEP_NAME,P_ID,P_NAME FROM Doctor, Department, Patient 
 where Doctor.DEP_ID = Department.DEP_ID and Patient.DEP_ID = Department.DEP_ID; 
 
- -- TRUNCATE Patient;
--- ALTER TABLE Patient ADD DISCHARGE_DATE Date;
+ -- QUERY 3 : Query to provide the count of patients discharged per day in the last week.
 
 SELECT COUNT(P_NAME),DISCHARGE_DATE from patient where DISCHARGE_DATE BETWEEN '2019-12-12' and '2019-12-19'
 GROUP BY DISCHARGE_DATE; 
