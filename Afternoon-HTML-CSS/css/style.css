@@ -1,0 +1,119 @@
+body { 
+    margin : 0;
+    padding : 0;
+}
+
+.nav {
+    background-color  : black !important ;
+    margin : 0px 0px !important;
+    font : white ;
+}
+
+.nav-item  {
+    margin : 10px 10px !important;
+  
+}
+.nav a {
+    color : white ;
+}
+.nav a:hover  {
+    color : black ;
+    background-color : lightseagreen;
+}
+
+#eco-grow {
+    margin : 0px 2px;
+    height :  30px;
+}
+.go-left {
+    
+    float: left; 
+}
+
+.go-right {
+   
+    float: right !important; 
+}
+
+.navbar {
+    background-color  : black !important ;
+    margin : 0px 0px !important;
+}
+
+/* Headline css */
+#headline {
+    padding : 20px;
+    background-color: grey;
+}
+
+#headline-img img {
+    height: 95%;
+    display:  block;
+    margin : auto;
+    float :left;
+}
+
+#headline-text {
+    /* display : block; */
+    padding : 10px;
+    margin: auto;
+}
+.headline-box {
+    display : block;
+    float : left;
+}
+#extra-image  img{
+    height: 300px;
+    float: right; 
+    width : 600px;
+}
+
+.mybox {
+    margin : 10px 0px;
+    background-color: #EAECEE  ;
+    padding : 20px;
+
+}
+
+.mybox-in img, .mybox img {
+    height : 300px;
+    width : 300px;
+    margin : auto
+}
+
+.mybox p {
+    padding : 10px;
+}
+.mybox h3 {
+    margin : 10px;
+}
+.mybox-in {
+    margin :auto;
+    padding : 20px ;
+} 
+
+.nav .footer a:hover {
+    background-color:#808B96  ;
+}
+
+.nav .footer-head {
+    background-color : #808B96   ;
+}
+
+#footer {
+    background-color: black;   
+}
+#end-credits{
+    padding: 5px ;
+     background-color : lightseagreen;
+     margin: auto;
+     bolor : black;
+}
+
+.fa {
+    margin: 5px 15px;
+}
+.social-icon {
+    position: relative;
+    margin : auto;
+}
