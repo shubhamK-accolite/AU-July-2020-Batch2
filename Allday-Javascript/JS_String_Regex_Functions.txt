@@ -1,5 +1,9 @@
 //// REGEX Funtions   ////
 
+/*  >  represent input
+ *  // represent output
+ */
+
 > let str = "A regular expression is a sequence of characters that define a search pattern"
 > reg = /seq/ 
 > reg.exec(str)
