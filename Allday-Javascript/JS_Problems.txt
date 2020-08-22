@@ -1,0 +1,67 @@
+////   PROBLEMS  /////
+/*************************************************************************************************/
+
+1. Perform two tests:​
+	a. it should start with 'The'/'the' and end with 'hello'. => Test 1 = true​
+	b. it should consist of a word which has​ h--(a,e,i,o,u)1 or 0 time -- any character once -- t => Test 2 = true​
+
+Solution -- 
+
+> s1 = "The hot sun says hello"
+> s2 = "The haot sun says hello"
+
+> let reg1= /^the/i
+> let reg2 = /hello$/
+> let reg3 = /h[aeiou]?t/
+
+> reg1.test(s1) && reg2.test(s1)
+// true
+
+> reg3.test(s1)
+// true
+
+> reg3.test(s2)
+// false
+​
+/*************************************************************************************************/
+​
+2. I am taking 10,17,18,14,15 as input.​
+	a. remove/filter out elements < 15 and print ==> [17,18]​
+	b. print all values and index of the values. ==> ​
+		17, 0​	
+		18,1​
+	c. Map and Multiply each element by 10 and print the final array ==> [170, 180]​
+
+Solution --- 
+a.
+> arr = [10,17,18,14,15]
+> arr = arr.filter((item)=> item >15)
+// (2) [17, 18]
+
+b. 
+> arr.forEach((item,index) => console.log(index+" "+item))
+// 0 17
+// 1 18
+
+c. 
+> arr.map((item)=> item*10)
+// (2) [170, 180]
+
+/*************************************************************************************************/
+Difference between \r and \n
+
+Answer -- 
+
+\r tells printers to go to the left.
+\n is for next line.
+
+\r is rarely used expression. It iis still used. 
+Both the expressions were used in old systems as "\r\n" to go to the starting of the next line.
+
+Below is the example while using \r and \n  --
+
+> console.log("Hello World \rLearn JavaScript.\nfrom Tutorial")
+// Visit W3Schools. Learn JavaScript.
+   from Tutorial
+ 
+ 
