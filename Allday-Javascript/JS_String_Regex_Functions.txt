@@ -1,0 +1,33 @@
+//// REGEX Funtions   ////
+
+> let str = "A regular expression is a sequence of characters that define a search pattern"
+> reg = /seq/ 
+> reg.exec(str)
+// ["seq", index: 26, input: "A regular expression is a sequence of characters that define a search pattern", groups: undefined]
+
+/*******************************************************************************/
+
+> str2 = "The moon is shining like moone and blooming moonflower"
+> reg2 = /oo/ 
+> reg2.test(str)
+// false
+> reg2.test(str2)
+// true
+
+/*******************************************************************************/
+
+> str2.match(reg2)
+// ["oo", index: 5, input: "The moon is shining like moone and blooming moonflower", groups: undefined]
+> str.match(reg2)
+// null
+
+/*******************************************************************************/
+
+> str2.replace(reg2,"uuuuu")
+// "The muuuuun is shining like moone and blooming moonflower"
+
+/*******************************************************************************/
+
+> str2.split(" ")
+//(9) ["The", "moon", "is", "shining", "like", "moone", "and", "blooming", "moonflower"]
+
