@@ -6,3 +6,5 @@
 <li> Added Routing  </li>
 <li> Used emitter to send details to parent. </li>
 </ol>
+
+(node-modules excluded in zip file)
