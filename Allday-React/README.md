@@ -8,3 +8,6 @@ Functionality -
   <li>See TodoList </li>
   <li>Clear Todolist </li>
   </ul>
+  
+  <br>
+  Note : npm_modules folder excluded 
