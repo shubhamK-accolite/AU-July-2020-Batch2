@@ -10,4 +10,4 @@ Functionality -
   </ul>
   
   <br>
-  Note : npm_modules folder excluded 
+  Note : npm_modules folder excluded in zip
